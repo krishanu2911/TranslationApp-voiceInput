@@ -1,0 +1,33 @@
+body{
+    /* background-color: red; */
+    text-align: center;
+    /* border: none; */
+    background-color: #FBBF24;
+    /* color: #FBBF24; */
+}
+textarea{
+    border: none;
+    padding: 0.4rem 2rem 2rem 0.4rem;
+}
+.btn-div{
+    margin: 1rem;
+}
+
+.btn-sty{
+    border: none;
+    cursor:pointer;
+    
+    padding: 0.4rem 1rem;
+    border-radius: 0.4rem;
+}
+.btn-sty:hover{
+ background-color: silver;
+}
+.outputDiv{
+    padding: 2rem;
+}
+.outputDiv{
+    background-color: #FDE68A;
+    margin: auto;
+    width: 20rem;
+}

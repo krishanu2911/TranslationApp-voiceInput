@@ -14,7 +14,7 @@ function translateFunc(){
     // console.log(output.value);
 }
 // "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
-var serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+var serverURL = "https://api.funtranslations.com/translate/minion.json"
 // output.innerText = 
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 const recognition = new SpeechRecognition();
