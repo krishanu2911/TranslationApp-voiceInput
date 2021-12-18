@@ -19,7 +19,7 @@ var serverURL = "https://api.funtranslations.com/translate/minion.json"
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 const recognition = new SpeechRecognition();
 recognition.onstart = function(){
-    console.log("The Recognition has fired, start speaking!");
+    console.log("The Recognition has started");
 }
 recognition.onresult = function(event){
     var transcript = event.results[0][0].transcript; 
